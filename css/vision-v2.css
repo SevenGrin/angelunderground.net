@@ -22,7 +22,7 @@ body {
 	padding-top: 0px;
 	position: relative;
 	font-size: .7em;
-	font-family: 'Consolas', 'monospace';
+	font-family: "IBM Plex Mono", monospace;
 	font-weight: normal;
 }
 #wrapper {
@@ -345,3 +345,4 @@ a.hbutton:active {
 	margin: 4px 0px 4px 0px;
 	color: #666666;
 }
+
