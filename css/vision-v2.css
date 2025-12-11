@@ -95,14 +95,19 @@ a.hbutton:active {
 	margin: 0px;
 	width: 980px;
 	position: relative;
-	overflow: hidden;
+	overflow: visible;
+}
+#container::after {
+	content: "";
+	display: block;
+	clear: both;
 }
 #col-l {
 	margin: 0px 0px 0px 20px;
 	padding: 0px;
 	width: 624px;
 	position: relative;
-	overflow: hidden;
+	overflow: visible;
 	float: left;
 }
 #col-r {
@@ -110,7 +115,7 @@ a.hbutton:active {
 	padding: 0px;
 	width: 308px;
 	position: relative;
-	overflow: hidden;
+	overflow: auto;
 	float: right;
 }
 #footer {
@@ -120,8 +125,10 @@ a.hbutton:active {
 	margin: 0px;
 	width: 980px;
 	height: 140px;
+	bottom: 0;
 	position: relative;
-	overflow: hidden;
+	top: 0px;
+	overflow: auto;
 	clear: left;
 }
 #ft-Info {
@@ -245,7 +252,7 @@ a.hbutton:active {
 	width: 308px;
 	height: 23px;
 	position: relative;
-	overflow: hidden;
+	overflow: show;
 }
 .NavInfo {
 	color: #585858;
